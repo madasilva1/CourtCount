@@ -39,7 +39,16 @@
             android:layout_margin="36dp"
             android:text="Team B"
             android:textSize="35dp" />
-    </LinearLayout>
 
+    </LinearLayout>
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="67dp"
+        android:layout_marginBottom="200dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
 </LinearLayout>
