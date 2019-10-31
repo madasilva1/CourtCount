@@ -11,14 +11,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     /**
      * This method displays the given quantity value on the screen.
-     */
-    private void display(int number) {
+*/
+    private void displayForTeamA(int number) {
 
         TextView quantityTextView = (TextView) findViewById(
-                R.id.quantity_text_view);
+                R.id.viewFor3Points);
         quantityTextView.setText("" + number);
     }
 
